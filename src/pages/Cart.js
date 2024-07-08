@@ -1,7 +1,7 @@
 import {Fragment, useState} from 'react';
 import { Link } from 'react-router-dom';
 import {toast} from 'react-toastify';
-
+ 
 export default function Cart({cartItems, setCartItems}) {
     const [complete, setComplete] = useState(false);
 
