@@ -114,5 +114,6 @@ export default function Cart({cartItems, setCartItems}) {
             : <Fragment>
                 <h2 className='mt-5'>Order Complete!</h2>
                 <p>Your order has been placed succesfully.</p>
+                <Link to={"/"} href="#" id="view_btn" className="btn btn-warning">Continue Shopping</Link>
             </Fragment>)
 }
